@@ -119,5 +119,5 @@ offset_right = 116.0
 offset_bottom = 242.0
 text = "Cancel"
 
-[connection signal="button_down" from="Add" to="." method="_on_add_button_down"]
-[connection signal="button_down" from="Cancel" to="." method="_on_cancel_button_down"]
+[connection signal="button_down" from="Add" to="." method="OnAddButtonDown"]
+[connection signal="button_down" from="Cancel" to="." method="OnCancelButtonDown"]

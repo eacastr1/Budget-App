@@ -31,7 +31,6 @@ public partial class AppManager : Control
         };
 
         container = GetNode<VBoxContainer>("TransactionList/ScrollContainer/TransactionList");
-        // LoadCSV("C:/Users/Eddie/Downloads/AccountHistory.csv");
     }
 
     public override void _Process(double delta)
@@ -39,7 +38,7 @@ public partial class AppManager : Control
         // GD.Print(CurrentBudget.Name);
     }
 
-    public void _on_add_transaction_button_down()
+    public void OnAddTransactionButtonDown()
     {
         AddTransactionWindow transactionMenu = AddTransactionMenu.Instantiate<AddTransactionWindow>();
         AddChild(transactionMenu);
@@ -113,25 +112,13 @@ public partial class AppManager : Control
         }
     }
 
-    private void SetupCategories()
-    {
-        foreach(var item in Enum.GetValues(typeof(TransactionType)))
-        {
-            Node transactionLineItem = TransactionCategoryLineItem.Instantiate();
-            transactionLineItem.GetNode<Label>("Type").Text = item.ToString();
-            transactionLineItem.GetNode<Label>("Actual").Text = "0";
-            transactionLineItem.GetNode<Label>("Difference").Text = "0";
-            GetNode("TransactionCategoryLineItem/Body").AddChild(transactionLineItem);
-        }
-    }
-
-    private void _on_file_dialog_file_selected(string path)
+    private void OnFileDialogFileSelected(string path)
     {
         LoadCSV(path);
         GetNode<FileDialog>("FileDialog").Visible = false;
     }
 
-    private void _on_button_button_down()
+    private void OnButtonButtonDown()
     {
         GetNode<FileDialog>("FileDialog").Visible = true;
     }

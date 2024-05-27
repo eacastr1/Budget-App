@@ -17,12 +17,12 @@ public partial class AddTransactionWindow : Panel
 	{
 	}
 
-	public void _on_cancel_button_down()
+	public void OnCancelButtonDown()
 	{
 		QueueFree(); // Removes this object from memory and the scene
 	}
 
-	public void _on_add_button_down()
+	public void OnAddButtonDown()
 	{
 		EmitSignal(SignalName.AddTransaction, 
 			GetNode<LineEdit>("VBoxContainer/Name/LineEdit").Text,

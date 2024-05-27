@@ -210,6 +210,6 @@ offset_bottom = 136.0
 text = "Load CSV
 "
 
-[connection signal="button_down" from="AddTransaction" to="." method="_on_add_transaction_button_down"]
-[connection signal="file_selected" from="FileDialog" to="." method="_on_file_dialog_file_selected"]
-[connection signal="button_down" from="Button" to="." method="_on_button_button_down"]
+[connection signal="button_down" from="AddTransaction" to="." method="OnAddTransactionButtonDown"]
+[connection signal="file_selected" from="FileDialog" to="." method="OnFileDialogFileSelected"]
+[connection signal="button_down" from="Button" to="." method="OnButtonButtonDown"]
