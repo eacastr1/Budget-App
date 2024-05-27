@@ -14,9 +14,6 @@ public partial class AppManager : Control
     [Export]
     public PackedScene AddTransactionMenu;
 
-    [Export]
-    public PackedScene TransactionCategoryLineItem;
-
     VBoxContainer container;
     float totalIncome = 0;
     float totalExpense = 0;
