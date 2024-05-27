@@ -140,6 +140,7 @@ theme_override_font_sizes/font_size = 20
 text = "+"
 
 [node name="TransactionCategoryLineItem" type="Control" parent="."]
+visible = false
 anchors_preset = 0
 offset_left = 634.0
 offset_top = 252.0
