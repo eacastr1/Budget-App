@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dhj5jik2k8m8c"
+
+[deps]
+
+files=["res://AccountHistory.Post Date.translation", "res://AccountHistory.Check.translation", "res://AccountHistory.Description.translation", "res://AccountHistory.Debit.translation", "res://AccountHistory.Credit.translation", "res://AccountHistory.Status.translation", "res://AccountHistory.Balance.translation"]
+
+source_file="res://AccountHistory.csv"
+dest_files=["res://AccountHistory.Post Date.translation", "res://AccountHistory.Check.translation", "res://AccountHistory.Description.translation", "res://AccountHistory.Debit.translation", "res://AccountHistory.Credit.translation", "res://AccountHistory.Status.translation", "res://AccountHistory.Balance.translation"]
+
+[params]
+
+compress=true
+delimiter=0

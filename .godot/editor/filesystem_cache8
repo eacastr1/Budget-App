@@ -1,13 +1,23 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1716796065
-control.tscn::PackedScene::3692852958515170209::1716758357::0::1::::<><>::res://scripts/AppManager.cs<>uid://dmegqxiy5i5bj::::res://transaction_row.tscn<>uid://23f0n7xt1xc::::res://add_transaction_window.tscn
+::res://::1716803300
+AccountHistory.csv::Translation::7671001375136482972::1716704268::1716803305::1::::<><>::
+control.tscn::PackedScene::3692852958515170209::1716803267::0::1::::<><>::res://scripts/AppManager.cs<>uid://dmegqxiy5i5bj::::res://transaction_row.tscn<>uid://23f0n7xt1xc::::res://add_transaction_window.tscn<>uid://cg6aqi4gaitoh::::res://green pie part.png<>uid://cejpovu2ft28j::::res://Red pie part.png
 green pie part.png::CompressedTexture2D::5257999177551806447::1716796061::1716796061::1::::<><>::
 icon.svg::CompressedTexture2D::6316412650088376524::1716514326::1716514330::1::::<><>::
-AddTransactionWindow.cs::CSharpScript::-1::1716702636::0::1::::<>Panel<>::
-add_transaction_window.tscn::PackedScene::57448538778257344::1716701893::0::1::::<><>::res://AddTransactionWindow.cs
+AddTransactionWindow.cs::CSharpScript::-1::1716802543::0::1::::<>Panel<>::
+add_transaction_window.tscn::PackedScene::57448538778257344::1716803267::0::1::::<><>::res://AddTransactionWindow.cs
 Red pie part.png::CompressedTexture2D::5073113032851693727::1716796065::1716796066::1::::<><>::
-transaction_row.tscn::PackedScene::8010179781937386051::1716516058::0::1::::<><>::
-::res://scripts/::1716514706
-AppManager.cs::CSharpScript::-1::1716704865::0::1::::<>Control<>::
+category_list_item.tscn::PackedScene::3644631093869402344::1716798469::0::1::::<><>::
+AccountHistory.Post Date.translation::OptimizedTranslation::461805100930785615::1716803305::0::1::::<><>::
+AccountHistory.Check.translation::OptimizedTranslation::5444150014367803713::1716803305::0::1::::<><>::
+AccountHistory.Description.translation::OptimizedTranslation::3708932728257893745::1716803305::0::1::::<><>::
+AccountHistory.Debit.translation::OptimizedTranslation::3035114192936133178::1716803305::0::1::::<><>::
+AccountHistory.Credit.translation::OptimizedTranslation::2945200123689417191::1716803305::0::1::::<><>::
+AccountHistory.Status.translation::OptimizedTranslation::2930046865445645182::1716803305::0::1::::<><>::
+AccountHistory.Balance.translation::OptimizedTranslation::4141537713340958524::1716803305::0::1::::<><>::
+transaction_row.tscn::PackedScene::8010179781937386051::1716803267::0::1::::<><>::
+::res://scripts/::1716800573
+AppManager.cs::CSharpScript::-1::1716803138::0::1::::<>Control<>::
 Budget.cs::CSharpScript::-1::1716514670::0::1::::<><>::
 Transaction.cs::CSharpScript::-1::1716514668::0::1::::<><>::
+TransactionType.cs::CSharpScript::-1::1716800590::0::1::::<><>::

@@ -15,3 +15,4 @@ C:\Users\Eddie\Documents\Budget App\.godot\mono\temp\obj\Debug\refint\Budget App
 C:\Users\Eddie\Documents\Budget App\.godot\mono\temp\obj\Debug\Budget App.pdb
 C:\Users\Eddie\Documents\Budget App\.godot\mono\temp\obj\Debug\Budget App.genruntimeconfig.cache
 C:\Users\Eddie\Documents\Budget App\.godot\mono\temp\obj\Debug\ref\Budget App.dll
+C:\Users\Eddie\Documents\Budget App\.godot\mono\temp\obj\Debug\Budget App.sourcelink.json
