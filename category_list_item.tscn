@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://br6qsoegapvcy"]
+
+[node name="CategoryListItem" type="HBoxContainer"]
+
+[node name="Type" type="Label" parent="."]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Type"
+
+[node name="Planned" type="LineEdit" parent="."]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Actual" type="Label" parent="."]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Type"
+
+[node name="Difference" type="Label" parent="."]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Type"

@@ -1,0 +1,57 @@
+[gd_scene load_steps=2 format=3 uid="uid://dmegqxiy5i5bj"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2r8hx"]
+bg_color = Color(0.156863, 0.156863, 0.156863, 1)
+
+[node name="TransactionPanel" type="Panel"]
+custom_minimum_size = Vector2(0, 100)
+offset_left = 20.0
+offset_right = 20.0
+offset_bottom = 736.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_2r8hx")
+
+[node name="TransactionRow" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 2
+
+[node name="Date" type="RichTextLabel" parent="TransactionRow"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "10/10/2020"
+fit_content = true
+
+[node name="Name" type="RichTextLabel" parent="TransactionRow"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Testing name for the transaction"
+scroll_active = false
+
+[node name="Amount" type="RichTextLabel" parent="TransactionRow"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "100000"
+fit_content = true
+
+[node name="Type" type="OptionButton" parent="TransactionRow"]
+layout_mode = 2
+size_flags_horizontal = 3
+item_count = 6
+selected = 0
+fit_to_longest_item = false
+popup/item_0/text = "Home"
+popup/item_0/id = 0
+popup/item_1/text = "Utilities"
+popup/item_1/id = 1
+popup/item_2/text = "Food"
+popup/item_2/id = 2
+popup/item_3/text = "Restaurant"
+popup/item_3/id = 3
+popup/item_4/text = "Personal"
+popup/item_4/id = 4
+popup/item_5/text = "Other"
+popup/item_5/id = 5

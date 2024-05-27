@@ -1,0 +1,17 @@
+C:\Users\Eddie\Documents\Budget App\.godot\mono\temp\bin\Debug\Budget App.deps.json
+C:\Users\Eddie\Documents\Budget App\.godot\mono\temp\bin\Debug\Budget App.runtimeconfig.json
+C:\Users\Eddie\Documents\Budget App\.godot\mono\temp\bin\Debug\Budget App.dll
+C:\Users\Eddie\Documents\Budget App\.godot\mono\temp\bin\Debug\Budget App.pdb
+C:\Users\Eddie\Documents\Budget App\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\Eddie\Documents\Budget App\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\Eddie\Documents\Budget App\.godot\mono\temp\obj\Debug\Budget App.csproj.AssemblyReference.cache
+C:\Users\Eddie\Documents\Budget App\.godot\mono\temp\obj\Debug\Budget App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eddie\Documents\Budget App\.godot\mono\temp\obj\Debug\Budget App.AssemblyInfoInputs.cache
+C:\Users\Eddie\Documents\Budget App\.godot\mono\temp\obj\Debug\Budget App.AssemblyInfo.cs
+C:\Users\Eddie\Documents\Budget App\.godot\mono\temp\obj\Debug\Budget App.csproj.CoreCompileInputs.cache
+C:\Users\Eddie\Documents\Budget App\.godot\mono\temp\obj\Debug\Budget App.csproj.CopyComplete
+C:\Users\Eddie\Documents\Budget App\.godot\mono\temp\obj\Debug\Budget App.dll
+C:\Users\Eddie\Documents\Budget App\.godot\mono\temp\obj\Debug\refint\Budget App.dll
+C:\Users\Eddie\Documents\Budget App\.godot\mono\temp\obj\Debug\Budget App.pdb
+C:\Users\Eddie\Documents\Budget App\.godot\mono\temp\obj\Debug\Budget App.genruntimeconfig.cache
+C:\Users\Eddie\Documents\Budget App\.godot\mono\temp\obj\Debug\ref\Budget App.dll
