@@ -43,7 +43,7 @@ size_flags_horizontal = 3
 size_flags_vertical = 0
 theme_override_font_sizes/bold_font_size = 18
 bbcode_enabled = true
-text = "[center][b]1000"
+text = "[center][b]0"
 fit_content = true
 
 [node name="TextureProgressBar" type="TextureProgressBar" parent="Total"]
@@ -73,7 +73,7 @@ size_flags_horizontal = 3
 size_flags_vertical = 0
 theme_override_font_sizes/bold_font_size = 18
 bbcode_enabled = true
-text = "[center][b]1000"
+text = "[center][b]0"
 fit_content = true
 
 [node name="TransactionList" type="Control" parent="."]
