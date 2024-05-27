@@ -1,6 +1,5 @@
-res://crate.tscn
 res://control.tscn
-res://scripts/AppManager.cs
-res://AddTransactionWindow.cs
 res://transaction_row.tscn
 res://add_transaction_window.tscn
+res://AddTransactionWindow.cs
+res://scripts/AppManager.cs
